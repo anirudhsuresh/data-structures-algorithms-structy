@@ -4,10 +4,10 @@ def leaf_list(root):
         return []
     
     q=deque()
-    q.append([root])
+    q.append(root)
 
     leaf_list=[]  # to store results 
-    
+
     while q:
         
         current = q.popleft()
